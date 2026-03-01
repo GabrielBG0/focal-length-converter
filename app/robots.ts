@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yourdomain.com/sitemap.xml",
+    sitemap: "https://lensequi.gabrielbg.dev/sitemap.xml",
   };
 }
