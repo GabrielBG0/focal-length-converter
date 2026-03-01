@@ -50,18 +50,8 @@ export default function LensCalculator() {
   }
 
   return (
-    <main className="min-h-screen bg-neutral-950 text-neutral-100 flex items-center justify-center px-6">
+    <main className="bg-neutral-950 text-neutral-100 flex items-center justify-center px-6">
       <div className="w-full max-w-lg space-y-10">
-        {/* Header */}
-        <div className="space-y-3 text-center">
-          <h1 className="text-3xl font-semibold tracking-tight">
-            Lens Equivalence
-          </h1>
-          <p className="text-sm text-neutral-400">
-            Field of view and depth-of-field equivalence calculator
-          </p>
-        </div>
-
         {/* Form */}
         <div className="space-y-8">
           {/* Focal Length */}
