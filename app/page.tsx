@@ -1,7 +1,7 @@
 import Script from "next/script";
 import LensCalculator from "@/components/LensCalculator";
 
-const SITE_URL = "https://lensequi.gabrielbg.dev";
+const SITE_URL = "https://lensconv.gabrielbg.dev";
 
 export default function Home() {
   return (
