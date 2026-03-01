@@ -94,7 +94,7 @@ export default function LensCalculator() {
           </div>
 
           {/* Preset */}
-          <div className="relative">
+          <div className="space-y-2">
             <label className="text-sm text-neutral-400 flex items-center">
               Target Sensor Format
               <InfoTooltip>
