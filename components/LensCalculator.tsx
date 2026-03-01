@@ -95,6 +95,14 @@ export default function LensCalculator() {
 
           {/* Preset */}
           <div className="relative">
+            <label className="text-sm text-neutral-400 flex items-center">
+              Target Sensor Format
+              <InfoTooltip>
+                The sensor format determines the crop factor. Smaller sensors
+                increase effective focal length and depth of field compared to
+                full-frame.
+              </InfoTooltip>
+            </label>
             <select
               value={preset}
               onChange={(e) => handlePresetChange(e.target.value)}

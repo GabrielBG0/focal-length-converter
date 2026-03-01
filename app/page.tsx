@@ -90,6 +90,25 @@ export default function Home() {
             professional mirrorless systems and smartphone cameras.
           </p>
         </section>
+        {/* Footer */}
+        <footer className="mt-24 pt-8 border-t border-neutral-800 text-center text-xs text-neutral-500">
+          <p>
+            Created by{" "}
+            <span className="text-neutral-300">
+              Gabriel B Gutierrez © {new Date().getFullYear()}
+            </span>
+          </p>
+          <p className="mt-2">
+            <a
+              href="https://github.com/GabrielBG0/focal-length-converter"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-neutral-300 transition"
+            >
+              View Project on GitHub
+            </a>
+          </p>
+        </footer>
       </main>
     </>
   );
